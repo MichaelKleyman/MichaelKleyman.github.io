@@ -1,0 +1,113 @@
+/* Write your CSS code in this file */
+
+#title {
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    font-size: 70px;
+    padding: 20px;
+    text-align: center;
+    color: wheat;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 30%), 0px 6px 20px rgb(0 0 0 / 10%);
+}
+
+
+body {
+    background-color:#DCC7AA;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.guess-list {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: darkgreen;
+    font-family: cursive;
+}
+
+.bottom {
+    margin-left: 1rem;
+}
+
+#textbox {
+    padding: 0.5rem;
+    border-radius: 30px;
+    width: 150px;
+}
+
+button, .submit{
+    padding: 0.3rem;
+    border-radius: 60px;
+    background-color: black;
+    color: white;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    background-image: none;
+    box-shadow: 11px 11px 2px 1px lightsalmon;
+}
+
+button:hover, .submit:hover{
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+main {
+    margin: 0 auto;
+    background-color: lightsalmon;
+    border-radius: 30px;
+    padding: 1.5rem;
+    width: 440px;
+}
+
+.announce {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5rem;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hintArea {
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+    padding-right: 15px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: darkgreen;
+}
+
+.gitHub {
+    width: 30px;
+    height: 30px;
+    margin-left: 180px;
+    margin-top: 160px;
+}
+
+#name {
+    margin-left: 790px;
+}
+
+#gitlogo {
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+}
+
+#name {
+    font-size: 22px;
+    color: #4c5b56;
+    border: 30px;
+    font-family: inherit;
+    font-weight: 500;
+}
+#FS {
+    width: 300px;
+    height: 110px;
+}
